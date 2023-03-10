@@ -1,0 +1,30 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 550;
+    padding: 50;
+    margin: auto;
+}
+
+.form>input {
+    /* width: 500; */
+    height: 40;
+    border: 1 solid rgb(174, 174, 174);
+    border-radius: 10;
+    padding: 10;
+}
+
+.form>label {
+    margin: 10 0 0 0;
+}
+
+.form>button {
+    height: 40;
+    border-radius: 10;
+    margin: 20 0 0 0;
+    background-color: rgb(95, 174, 242);
+    color: white;
+    font-size: 20;
+    border: none;
+    cursor: pointer;
+}
